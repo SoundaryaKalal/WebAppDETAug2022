@@ -1,0 +1,11 @@
+﻿@page
+@model WebAppDETAug2022.Pages.hellowebModel
+@{
+}
+<h2>Welcome to my Site!!</h2>
+<h3>Happy @DateTime.Today.DayOfWeek!! </h3>
+
+Page Says @Model.message
+
+<p>Discount for today @Model.Discount%</p>
+<h5>Offer valid till @DateTime.Today.AddDays(3)</h5>
