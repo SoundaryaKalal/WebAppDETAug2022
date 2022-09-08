@@ -1,0 +1,7 @@
+﻿@model List<Booking>
+@using MVCDemo.Controllers
+<div>
+    @foreach (Booking b in @Model)
+    {
+        <p> @b.Title</p>
+    }

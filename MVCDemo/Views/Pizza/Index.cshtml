@@ -1,0 +1,13 @@
+﻿
+No.of Pizzas aviable = @Model.Count
+<div>
+    class="table-responsive">
+    <p>Details</p>
+    <table class="table">
+        @foreach (Pizza p in @Model)
+        {
+            <tr><tb>@p.Name</tb></tr>
+        }
+    </table>
+
+</div>
